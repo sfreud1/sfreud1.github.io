@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;  
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#44a1af, #262c64,#101968 );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: #2C2F4C;
+}
+.navbar a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    align-items: center;
+    transition: 0.4s;
+} 
+.navbar a:hover {
+    background-color: rgb(89, 99, 78, 0.4);
+    transform: scale(1.010);
+}
+#oxbull {
+    margin-right: auto;
+}
+
+.kapak {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 10px;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.kapak img {
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    border-radius: 40px;
+}
+.kapak:hover {
+    transform: scale(1.010);
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+.icerik {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2F4C;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 40px;
+    transition: 0.3s;
+}
+.icerik:hover {
+    transform: scale(1.02);
+}
+.blogbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 0px; 
+    width: 100%;
+}
+.blogbar a {
+    background-color: #50589b;
+    text-decoration: none;
+    padding:16px;
+    margin: 0px;
+    color: #FAA500;
+    border-radius: 30px;
+    display: inline-block;
+    width: 120px;
+}
+.blogbar a:hover {
+    background-color: #54576f;
+}
+.profil {
+    width: 20%;
+    height: 600px;
+    transition: 0.5s;
+}
+.profil:hover {
+    transform: scale(1.2);
+}
+.profil img {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+.blog {
+    width: 70%;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    text-align: left;
+    color: rgb(188, 187, 187);
+    padding: 20px;
+    font-family: Mont,sans-serif;
+}
+p {
+    text-align: left;
+    color: rgb(188, 187, 187);
+    padding: 20px;
+    font-family: Mont,sans-serif;
+}
+.Tierp {
+    text-align: left;
+    color: rgb(188, 187, 187);
+    padding: 10px;
+    font-family: Mont,sans-serif;
+}
+.blogh {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.Tier1{
+    background-color: #161933;
+    border-radius: 20px;
+}
+.busd {
+    text-align: center;
+    color: white;
+}
+.blog img {
+    object-fit: cover;
+    max-height: 300px;
+    border-radius: 30px;
+}
+ul {
+    text-align: left;
+    color: rgb(188, 187, 187);
+    padding: 10px;
+    font-family: Mont,sans-serif;
+    margin-left: 50px ;
+}
+.blogh3 {
+    text-align: left;
+    color: rgb(188, 187, 187);
+    padding: 20px;
+    font-family: Mont,sans-serif;
+}
+.footer { 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.link {
+    display: flex;
+    width: 500px;
+    height: 160px;
+    border-radius: 30px;
+    background-color: #2C2F4C;
+
+}
+.icon{
+    position: relative;
+    left: -50px;
+    margin: 30px;
+}
+.icon img {
+    object-fit: contain;
+    width:60px;
+    height:50px;
+    position: relative;
+    right: 10px;
+}
+.icon h3 {
+    font-size: 25px;
+    text-align: left;
+    
+}
+.ox img {
+    object-fit: contain;
+    width: 70px;
+    height: 150px;
+    padding: 5px;
+}
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 160px;
+    border-radius: 30px;
+    background-color: #2C2F4C;
+}
+.iconc {
+    position: relative;
+    left: -50px;
+    margin: 30px;
+}
+.iconc img {
+    object-fit: contain;
+    width:60px;
+    height:50px;
+    position: relative;
+    right: 10px;
+}
+.iconc h3 {
+    text-align: right;
+    font-size: 30px;
+}
